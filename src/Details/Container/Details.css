@@ -2,9 +2,61 @@
     width: 800px;
     background-color: #fff;
     margin: auto;
+    padding: 20px 0 5px 0;
+
 } 
 
-img {
+.user-info {
+    margin: 15px;
+}
+
+.user-info h3 {
+    margin-top: 10px;
+}
+
+
+.user-info img{
     width: 40px;
     border-radius: 30px;
+    margin-right: 10px;
+   
+}
+
+.transport-info {
+    margin: 30px 0 40px 0;;
+}
+
+.order-description {
+    margin: 25px 15px;
+    color: rgb(156, 162, 165);
+
+}
+
+
+.label-content {
+    display: flex;
+    margin: 15px 0;
+}
+
+.order-info {
+    margin: 20px 15px 10px 15px;
+
+}
+
+.order-info img {
+  margin: 3px 15px ;
+}
+
+.order-info h3 {
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.order-info p {
+    color: rgb(156, 162, 165);
+    font-size: 19px;
+    margin-top: 2px;
+
+
 }

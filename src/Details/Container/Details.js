@@ -23,14 +23,20 @@ class Details extends Component {
 
         return (
             <div className="wrapper">
-                <DetailLabel
-                 title={username}
-                 icon={profilePict} />
-                <Description description={description}/>
+                <div className="user-info">
+                    <DetailLabel
+                    title={username}
+                    icon={profilePict} />
+                </div>
+                <div className="order-description">
+                    <Description description={description}/>
+                </div>
                 <Map
                  containerElement={mapProps}
                  mapElement={mapProps} />
-                <TransportDetail orderInfo={orderInfo} />
+                 <div className="transport-info">
+                     <TransportDetail orderInfo={orderInfo} />
+                </div>
             </div>
         )
     }

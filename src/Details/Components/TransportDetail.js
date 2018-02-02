@@ -2,7 +2,7 @@ import React from 'react';
 import DetailLabel from './DetailLabel'
 
 const TransportDetail = ({orderInfo}) =>  (
-    <div>
+    <div className="order-info">
         <DetailLabel
             title='Recoger en'
             text={orderInfo.collect}

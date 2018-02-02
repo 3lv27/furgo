@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import data from './api.json'
+import api from './api'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App data={data} />, document.getElementById('root'));
+ReactDOM.render(<App data={api} />, document.getElementById('root'));
 registerServiceWorker();

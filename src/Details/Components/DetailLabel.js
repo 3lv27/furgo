@@ -2,17 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const DetailLabel = ({ icon, title, text }) => (
-    <div>
-        <div className="content">
+    <div className="label-content">
+        <div>
             <img
-                className='avatar'
                 src={icon}
                 alt={title} />
-                
+        </div>
+        <div>
             <h3>{title}</h3>
             <p>{text}</p>
         </div>
-
     </div>
 
 )
