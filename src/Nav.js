@@ -19,6 +19,7 @@ export default function Nav() {
                 <NavLink activeClassName='active' to='/muebles/ofertas'>
                     Ofertas
                 </NavLink>
+                <p>5</p>
             </li>
         </ul>
     )

@@ -26,6 +26,18 @@
   margin-top: 15px;
 }
 
+.nav p {
+  text-align: center;
+  position: absolute;
+  top: 62px;
+  right: 425px;
+  margin-left: 0;
+  background-color: red;
+  color: rgb(213, 221, 224);
+  border-radius: 30px;
+  width: 18px;
+}
+
 a {
     padding: 0 35px 8px 35px;
     text-decoration: none;
@@ -33,5 +45,7 @@ a {
     font-weight: bold;
     color: rgb(156, 162, 165)
 }
+
+
 
 
