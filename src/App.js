@@ -18,7 +18,7 @@ const App = ({ data }) => (
          <h2>Muebles</h2>
         </header>
         <BrowserRouter>
-          <div className="wrapper">
+          <div className="container">
             <div className="sub-menu">
               <Nav />
             </div>
